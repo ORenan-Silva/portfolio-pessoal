@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0fff3c;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    color: #f6f6f6;
+    box-sizing: border-box;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.titulo__destaque {
+    color: #0fff3c;
+}
+
+.titulo__about {
+    color: #0fff3c;
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__conteudo__sobre__mim {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #0fff3c;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 0;
+    font-size: 24px;
+    width: 378px;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 36px;
+    transition: all 0.3s ease;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    transform: scale(1.05);
+}
+
+.renan1 {
+    width: 488px;
+    border-radius: 400px;
+    align-items: center;
+}
+
+.renan2 {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 400px;
+    border-radius: 500px;
+    align-items: center;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #0fff3c;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
