@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #0fff3c;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +25,7 @@
 }
 
 .cabecalho__menu__link {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
     color: #0fff3c;
@@ -23,8 +33,8 @@
 }
 
 body {
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     box-sizing: border-box;
 }
 
@@ -44,27 +54,27 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .titulo__destaque {
-    color: #0fff3c;
+    color: var(--cor-terciaria);
 }
 
 .titulo__about {
-    color: #0fff3c;
-    font-family: "Krona One", sans-serif;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
     font-size: 24px;
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__conteudo__sobre__mim {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__links {
@@ -76,7 +86,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -90,9 +100,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #0fff3c;
-    color: #f6f6f6;
-    font-family: "Montserrat", sans-serif;
+    border: 2px solid var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
     text-align: center;
     text-decoration: none;
     padding: 16px 0;
@@ -105,14 +115,14 @@ body {
 }
 
 .certificados {
-    font-family: "Montserrat", sans-serif;
-    color: #0fff3c;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
     font-weight: 600;
     text-decoration: none;
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
     transform: scale(1.05);
 }
 
@@ -123,11 +133,11 @@ body {
 }
 
 .renan2 {
-    position: fixed;
+    position: absolute;
     top: 50%;
     right: 10%;
     transform: translateY(-50%);
-    width: 400px;
+    width: 600px;
     border-radius: 500px;
     align-items: center;
 }
@@ -139,11 +149,11 @@ body {
 }
 
 .rodape {
-    color: #000000;
-    background-color: #0fff3c;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
