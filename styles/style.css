@@ -164,7 +164,7 @@ body {
     }
     .cabecalho__menu {
         justify-content: center;
-        gap: 3%;
+        gap: 2.2%;
     }
     .cabecalho__menu__link{
         border: 2px solid var(--cor-hover);
