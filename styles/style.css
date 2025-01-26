@@ -24,7 +24,7 @@
 
 .cabecalho__menu {
     display: flex;
-    gap: 5rem;
+    gap: 10%;
 }
 
 .cabecalho__menu__link {
@@ -164,6 +164,11 @@ body {
     }
     .cabecalho__menu {
         justify-content: center;
+        gap: 3%;
+    }
+    .cabecalho__menu__link{
+        border: 2px solid var(--cor-hover);
+        border-radius: 8px;
     }
     .apresentacao {
         flex-direction: column-reverse;
