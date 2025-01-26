@@ -137,7 +137,7 @@ body {
 }
 
 .renan__about {
-    width: 488px;
+    width: 50%;
     border-radius: 500px;
     align-items: center;
 }
@@ -160,7 +160,7 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho { 
-        padding: 10%;
+        padding: 5%;
     }
     .cabecalho__menu {
         justify-content: center;
@@ -170,6 +170,13 @@ body {
         padding: 5%;
     }
     .apresentacao__conteudo {
+        width: 100%;
+    }
+    .apresentacao__conteudo__sobre__mim {
+        padding: 2.5%;
+        width: 100%;
+    }
+    .titulo__about {
         width: 100%;
     }
 }
