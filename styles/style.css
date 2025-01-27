@@ -164,11 +164,12 @@ body {
     }
     .cabecalho__menu {
         justify-content: center;
-        gap: 2.2%;
+        gap: 1.2%;
     }
     .cabecalho__menu__link{
         border: 2px solid var(--cor-hover);
         border-radius: 8px;
+        font-size: 1.35rem;
     }
     .apresentacao {
         flex-direction: column-reverse;
@@ -176,6 +177,9 @@ body {
     }
     .apresentacao__conteudo {
         width: 100%;
+    }
+    .apresentacao__links__navegacao {
+        padding: 8px 16px;
     }
     .apresentacao__conteudo__sobre__mim {
         padding: 2.5%;
