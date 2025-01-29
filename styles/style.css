@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Inter:wght@300;400;700&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #0fff3c;
-    --cor-hover: #272727;
+    --first-color: #1E1E1E;
+    --second-color: #F5F5F5;
+    --third-color: #00BFFF;
+    --hover-color: #333333;
 
-    --fonte-primaria: "Krona One", sans-serif;
-    --fonte-secundaria: "Montserrat", sans-serif;
+    --first-font: "Poppins", sans-serif;
+    --second-font: "Inter", sans-serif;
 
-    --tamanho-fonte-cabecalho: 2.25rem;
-    --tamanho-fonte-texto: 1.5rem;
+    --header-font-size: 2.25rem;
+    --text-font-size: 1.5rem;
 }
 
 *{
@@ -28,17 +28,21 @@
 }
 
 .cabecalho__menu__link {
-    font-family: var(--fonte-secundaria);
-    font-size: var(--tamanho-fonte-texto);
+    font-family: var(--second-font);
+    font-size: var(--text-font-size);
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--third-color);
     text-decoration: none;
 }
 
 body {
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
-    box-sizing: border-box;
+    font-family: var(--second-font);
+    background-color: var(--first-color);
+    color: var(--second-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--first-font);
 }
 
 .apresentacao {
@@ -57,28 +61,28 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: var(--tamanho-fonte-cabecalho);
-    font-family: var(--fonte-primaria);
+    font-size: var(--header-font-size);
+    font-family: var(--first-font);
 }
 
 .titulo__destaque {
-    color: var(--cor-terciaria);
+    color: var(--third-color);
 }
 
 .titulo__about {
-    color: var(--cor-terciaria);
-    font-family: var(--fonte-primaria);
-    font-size: var(--tamanho-fonte-texto);
+    color: var(--third-color);
+    font-family: var(--first-font);
+    font-size: var(--text-font-size);
 }
 
 .apresentacao__conteudo__texto {
-    font-size: var(--tamanho-fonte-texto);
-    font-family: var(--fonte-secundaria);
+    font-size: var(--text-font-size);
+    font-family: var(--second-font);
 }
 
 .apresentacao__conteudo__sobre__mim {
-    font-size: var(--tamanho-fonte-texto);
-    font-family: var(--fonte-secundaria);
+    font-size: var(--text-font-size);
+    font-family: var(--second-font);
 }
 
 .apresentacao__links {
@@ -90,9 +94,9 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: var(--fonte-primaria);
+    font-family: var(--first-font);
     font-weight: 400;
-    font-size: var(--tamanho-fonte-texto);
+    font-size: var(--text-font-size);
 }
 
 .icons {
@@ -104,13 +108,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid var(--cor-terciaria);
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    border: 2px solid var(--third-color);
+    color: var(--second-color);
+    font-family: var(--second-font);
     text-align: center;
     text-decoration: none;
     padding: 16px 0;
-    font-size: var(--tamanho-fonte-texto);
+    font-size: var(--text-font-size);
     width: 50%;
     border-radius: 8px;
     font-weight: 600;
@@ -119,14 +123,14 @@ body {
 }
 
 .certificados {
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-terciaria);
+    font-family: var(--second-font);
+    color: var(--third-color);
     font-weight: 600;
     text-decoration: none;
 }
 
 .apresentacao__links__navegacao:hover {
-    background-color: var(--cor-hover);
+    background-color: var(--hover-color);
     transform: scale(1.05);
 }
 
@@ -149,12 +153,12 @@ body {
 }
 
 .rodape {
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    color: var(--first-color);
+    background-color: var(--third-color);
     padding: 24px;
     text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: var(--tamanho-fonte-texto);
+    font-family: var(--second-font);
+    font-size: var(--text-font-size);
     font-weight: 400;
 }
 
@@ -167,7 +171,7 @@ body {
         gap: 1.2%;
     }
     .cabecalho__menu__link{
-        border: 2px solid var(--cor-hover);
+        border: 2px solid var(--hover-color);
         border-radius: 8px;
         font-size: 1.35rem;
     }
